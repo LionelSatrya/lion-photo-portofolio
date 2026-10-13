@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lion — Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- Custom Cursor -->
+<div class="custom-cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a href="#" class="logo">LION<span>.</span></a>
+    <a href="#contact" class="nav-link">Let's Connect ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">PHOTOGRAPHY & VISUAL STORIES</p>
+      <h1>Capturing the<br><span>little things.</span></h1>
+      <p class="intro">
+        Moments, places, and stories seen through my lens.
+      </p>
+      <a href="#gallery" class="cta">Explore my work ↓</a>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="section-heading">
+        <h2>Selected Works</h2>
+        <p>A collection of moments.</p>
+      </div>
+
+  <div class="gallery-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="nature">Nature</button>
+    <button class="filter-btn" data-filter="street">Street</button>
+    <button class="filter-btn" data-filter="sky">Sky</button>
+  </div>
+
+
+  <div class="gallery">
+    <div
+      class="photo-card"
+      data-category="nature"
+      data-title="Into the Wild"
+      data-location="Indonesia"
+      data-story="A quiet moment in nature, where warm sunlight meets the stillness of the landscape. This photograph captures the simple beauty of slowing down and noticing the little things."
+    >
+
+      <img
+        src="images/golden-hour.jpeg"
+        alt="Warm sunlight across wooden tables"
+        loading="lazy"
+        decoding="async"
+      >
+
+      <div class="photo-overlay">
+        <h3>Into the Wild</h3>
+        <p>NATURE · LANDSCAPE</p>
+      </div>
+    </div>
+
+    <div class="photo-card" data-category="nature">
+
+      <img 
+        src="images/quiet-corners.jpeg"
+        alt="Sunlight entering a quiet cafe"
+        loading="lazy"
+        decoding="async"      
+      >
+
+      <div class="photo-overlay">
+        <h3>Open Fields</h3>
+        <p>NATURE · OUTDOORS</p>
+      </div>
+    </div>
+
+    <div class="photo-card" data-category="street">
+
+      <img
+        src="images/warm-silence.jpeg"
+        alt="Warm light falling across cafe benches"
+        loading="lazy"
+        decoding="async"      
+      >
+      
+      <div class="photo-overlay">
+        <h3>After Dark</h3>
+        <p>NIGHT · STREET</p>
+      </div>
+    </div>
+  </div>
+
+    </section>
+    
+    <!-- ABOUT ME -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img
+          src="./images/lion-portrait.jpg"
+          alt="Portrait of Lion, photographer"
+          loading="lazy"
+        >
+        <span class="about-image-label">BEHIND THE LENS</span>
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow reveal">A LITTLE ABOUT ME</p>
+
+        <h2 class="reveal">
+          Finding beauty<br>
+          in the <span>ordinary.</span>
+        </h2>
+
+        <p class="about-description reveal">
+          Hi, I'm Lion — an aspiring photographer who loves
+          capturing light, shadows, and the little details
+          people often overlook.
+        </p>
+
+        <p class="about-description reveal">
+          Through my lens, I explore the beauty of everyday
+          life, one frame at a time.
+        </p>
+
+        <div class="about-signature reveal">LION.</div>
+      </div>
+    </section>
+
+
+
+    <!-- PHOTOGRAPHY STATISTICS -->
+    <section class="stats-section" id="journey" aria-labelledby="stats-title">
+      <div class="stats-inner">
+        <div class="stats-heading reveal">
+          <p class="eyebrow">06 / THE JOURNEY</p>
+          <h2 id="stats-title">Behind every <span>frame.</span></h2>
+          <p class="stats-intro">
+            A small collection of moments, perspectives, and stories seen through my lens.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-item reveal">
+            <span class="stat-index">01</span>
+            <p class="stat-number"><span class="counter" data-target="3">0</span><span class="stat-plus">+</span></p>
+            <h3>Frames in the Gallery</h3>
+            <p class="stat-note">Selected moments, carefully collected.</p>
+          </article>
+
+          <article class="stat-item reveal">
+            <span class="stat-index">02</span>
+            <p class="stat-number"><span class="counter" data-target="3">0</span></p>
+            <h3>Photo Categories</h3>
+            <p class="stat-note">Nature, street, and sky.</p>
+          </article>
+
+          <article class="stat-item reveal">
+            <span class="stat-index">03</span>
+            <p class="stat-number"><span class="counter" data-target="1">0</span></p>
+            <h3>Photographer</h3>
+            <p class="stat-note">One perspective behind the lens.</p>
+          </article>
+
+          <article class="stat-item stat-feature reveal">
+            <span class="stat-index">04</span>
+            <p class="stat-number stat-infinity" aria-label="Infinite">∞</p>
+            <h3>Stories to Tell</h3>
+            <p class="stat-note">The journey is only beginning.</p>
+          </article>
+        </div>
+
+        <div class="stats-footer reveal">
+          <span></span>
+          <p>EVERY FRAME HAS A STORY</p>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+      <h2>Let's create<br>something meaningful.</h2>   
+        <div class="social-links">
+          <a href="https://wa.me/6282144038008"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            title="WhatsApp">
+            <span>WA</span>
+          </a>
+
+          <a href="https://instagram.com/leo.galilei"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            title="Instagram">
+            <span>IG</span>
+          </a>
+
+          <a href="https://tiktok.com/@lion🦁"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            title="TikTok">
+            <span>TT</span>
+          </a>
+
+          <a href="mailto:lionsatrya09@gmail.com"
+            class="social-link"
+            aria-label="Email"
+            title="Email">
+            <span>@</span>
+          </a>
+        </div>
+    </section>
+  </main>
+  
+  <!-- Back to Top Button -->
+  <button
+    id="backToTop"
+    class="back-to-top"
+    type="button"
+    aria-label="Back to top"
+    title="Back to top"
+  >
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <footer>© 2026 Lion Photography</footer>
+  <script src="script.js"></script>
+</body>
+</html>
